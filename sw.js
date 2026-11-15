@@ -1,6 +1,6 @@
 // Offline-Speicher für MiniWelt: nach dem ersten Laden läuft das Spiel auch ohne Internet.
 // Bei jeder neuen Version VERSION erhöhen (macht scripts/copy-standalone.mjs automatisch).
-const VERSION = 'miniwelt-202611150821';
+const VERSION = 'miniwelt-202611150850';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
